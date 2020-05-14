@@ -10,12 +10,12 @@
     #ifdef SPINDLE_POWER
       #define SPINDLE_FEATURE
       #define SPINDLE_LASER_PWM_INVERT      false   // Set to "true" if the speed/power goes up when you want it to go slower
+      #define SPINDLE_LASER_ACTIVE_HIGH     true
       #ifndef SPINDLE_PWM
         #define SPINDLE_LASER_PWM             false   // Set to "true" if your controller supports setting the speed/power
       #else
         #define SPINDLE_LASER_PWM             true   // Set to "true" if your controller supports setting the speed/power
     //  #define SPINDLE_LASER_PWM_INVERT      false   // Set to "true" if the speed/power goes up when you want it to go slower
-#define SPINDLE_LASER_ACTIVE_HIGH     false
       #endif
       #ifndef SPINDLE_LASER_ENA_PIN
         #define SPINDLE_LASER_ENA_PIN P2_00 // SKR 1.3 servo output
