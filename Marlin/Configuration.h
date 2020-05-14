@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Configuration_common.h"
-/* 
+/*
  * Machine types
  * You must uncomment only one machine type.
  */
@@ -9,10 +9,11 @@
 //#define LOWRIDER 
 
 /*
- * Boards 
+ * Boards
  * You must uncomment only one board type.
+ * Be sure to edit platformio and ensure `default_envs` under `platformio` is set to the correct platform for your board.
  */
-#define SKR_V1_3
+#define SKR_V1_3 // default_envs = LPC1768
 
 #define X_AXIS_DRIVER DRV8825
 #define Y_AXIS_DRIVER DRV8825
