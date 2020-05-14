@@ -23,3 +23,5 @@
 
 #define SPINDLE_POWER // Uncomment to enable spindle power control on the board's servo port.
 //#define SPINDLE_PWM  // Uncomment to enable spindle pwm.
+
+#include "Configuration_backend.h"
