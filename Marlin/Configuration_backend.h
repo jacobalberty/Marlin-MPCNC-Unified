@@ -4,6 +4,10 @@
 // BTT SKR V1.3
 
 #ifdef SKR_V1_3
+    #define SERIAL_PORT -1
+    #define SERIAL_PORT_2 0
+    #define BAUDRATE 115200
+
     #define MOTHERBOARD BOARD_BTT_SKR_V1_3
     #define ARC_SUPPORT
     #define EMERGENCY_PARSER
